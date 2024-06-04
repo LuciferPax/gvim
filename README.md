@@ -15,3 +15,8 @@ This is a simple text editor built using Python's Tkinter library. It supports b
 2. Install the required libraries (if not already available):
    ```bash
    pip install tk
+
+## Usage
+Run the text editor with the follow command:
+   ```bash
+   some

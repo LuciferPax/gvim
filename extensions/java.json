@@ -1,0 +1,24 @@
+{
+   "scheme": {
+       "font_face": "Consolas",
+       "font_size": 12,
+       "background_color": "#0D1117",
+       "default_terminal_path": "cmd",
+       "line_bar_color": "#21262d",
+       "line_number_color": "#6e7681",
+       "tab_size": 4,
+       "line_number_font_size": 12,
+       "line_number_bold": true,
+       "line_number_italic": false
+   },
+
+   "syntax_rules": [
+       {
+           "pattern": "\\b(import|package|class|interface|extends|implements|public|private|protected|static|final|abstract|void|if|else|else if|for|while|do|try|catch|finally|return|throw|switch|case|break|continue|default)\\b",
+           "color": "#E8E466",
+           "description": "Keywords for control structures and definitions",
+           "bold": true,
+           "priority": 1
+       }
+   ]
+}

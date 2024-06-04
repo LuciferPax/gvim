@@ -1,0 +1,52 @@
+{
+   "scheme": {
+       "font_face": "Consolas",
+       "font_size": 12,
+       "background_color": "#0D1117",
+       "default_terminal_path": "cmd",
+       "line_bar_color": "#21262d",
+       "line_number_color": "#6e7681",
+       "tab_size": 4,
+       "line_number_font_size": 12,
+       "line_number_bold": true,
+       "line_number_italic": false
+   },
+
+   "syntax_rules": [
+       {
+           "pattern": "\\b(namespace|using|typedef|class|struct|enum|if|else|else if|for|while|do|try|catch|finally|return|throw|switch|case|break|continue|default|int|char|unsigned|signed|long|double|bool|float|void)\\b",
+           "color": "#E8E466",
+           "description": "Keywords for control structures and definitions",
+           "bold": true,
+           "priority": 5
+       },
+       {
+         "pattern": "#[^\\s]+",
+         "color": "#BA80E7",
+         "description": "Preprocessor directives",
+         "priority": 4
+       },
+       {
+         "pattern": "\"[^\"]*\"",
+         "color": "#6CD567",
+         "description": "String literals",
+         "priority": 3
+       },
+       {
+         "pattern": "\\b(\\+\\+|\\+|\\-\\-|\\-|\\*|\\/|\\%|\\=|\\+=|\\-=|\\*=|\\/=|\\%=|\\&\\&|\\|\\||\\!|\\=\\=|\\!\\=|\\<|\\>|\\<\\=|\\>\\=|\\&|\\||\\^|\\~|\\<\\<|\\>\\>|\\>\\>\\>)\\b",
+         "color": "#E8E466",
+         "description": "Operators",
+         "bold": false,
+         "priority": 6
+       },
+       {
+         "pattern": "\\b[A-Za-z_][A-Za-z0-9_]*\\b(?=\\s*\\:\\:)",
+         "color": "#E8E466",
+         "description": "Namespace or class names",
+         "bold": false,
+         "priority": 7
+       }
+       
+         
+   ]
+}

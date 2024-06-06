@@ -1,0 +1,14 @@
+{
+  "font_face": "Consolas",
+  "font_size": 12,
+  "background_color": "#282A36",
+  "default_terminal_path": "cmd",
+  "line_bar_color": "#44475A",
+  "line_number_color": "#6272A4",
+  "tab_size": 4,
+  "line_number_font_size": 12,
+  "line_number_bold": true,
+  "line_number_italic": false,
+  "foreground_color": "#F8F8F2",
+  "insertbackground_color": "#50FA7B"
+}

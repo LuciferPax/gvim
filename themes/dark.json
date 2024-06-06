@@ -1,0 +1,14 @@
+{
+  "font_face": "Consolas",
+  "font_size": 12,
+  "background_color": "#002b36",
+  "default_terminal_path": "powershell",
+  "line_bar_color": "#073642",
+  "line_number_color": "#586e75",
+  "tab_size": 4,
+  "line_number_font_size": 12,
+  "line_number_bold": true,
+  "line_number_italic": false,
+  "foreground_color": "#839496",
+  "insertbackground_color": "#268bd2"
+}

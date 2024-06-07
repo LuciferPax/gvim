@@ -1,0 +1,75 @@
+{
+  "name": "onedarkpro",
+  "theme": {
+    "background": "#282c34",
+    "foreground": "#abb2bf",
+    "cursor": "#528bff",
+    "black": "#282c34",
+    "red": "#e06c75",
+    "green": "#98c379",
+    "yellow": "#e5c07b",
+    "blue": "#61afef",
+    "magenta": "#c678dd",
+    "cyan": "#56b6c2",
+    "white": "#abb2bf",
+    "brightBlack": "#5c6370",
+    "brightRed": "#e06c75",
+    "brightGreen": "#98c379",
+    "brightYellow": "#e5c07b",
+    "brightBlue": "#61afef",
+    "brightMagenta": "#c678dd",
+    "brightCyan": "#56b6c2",
+    "brightWhite": "#dcdfe4"
+  },
+  "syntaxes": {
+    "c++": [
+      {
+        "scope": [
+          "c++",
+          "cpp"
+        ],
+        "rules": [
+          {
+            "pattern": "//.*",
+            "color": "#888888",
+            "description": "Comments",
+            "priority": 1
+          },
+          {
+            "pattern": "\\b(namespace|using|typedef|class|struct|enum|if|else|for|while|do|try|catch|finally|return|throw|switch|case|break|continue|default|int|char|unsigned|signed|long|double|bool|float|void)\\b",
+            "color": "#E8E466",
+            "description": "Keywords for control structures and definitions",
+            "bold": true,
+            "priority": 5
+          },
+          {
+            "pattern": "#[^\\s]+",
+            "color": "#BA80E7",
+            "description": "Preprocessor directives",
+            "priority": 4
+          },
+          {
+            "pattern": "\"[^\"]*\"",
+            "color": "#6CD567",
+            "description": "String literals",
+            "priority": 3
+          },
+          {
+            "pattern": "\\b(\\+\\+|\\+|\\-\\-|\\-|\\*|\\/|\\%|\\=|\\+=|\\-=|\\*=|\\/=|\\%=|\\&\\&|\\|\\||\\!|\\=\\=|\\!\\=|\\<|\\>|\\<\\=|\\>\\=|\\&|\\||\\^|\\~|\\<\\<|\\>\\>|\\>\\>\\>)\\b",
+            "color": "#E8E466",
+            "description": "Operators",
+            "bold": false,
+            "priority": 6
+          },
+          {
+            "pattern": "\\b[A-Za-z_][A-Za-z0-9_]*\\b(?=\\s*\\:\\:)",
+            "color": "#E8E466",
+            "description": "Namespace or class names",
+            "bold": false,
+            "priority": 7
+          }
+        ]
+      }
+    ]
+  }
+}
